@@ -8,11 +8,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class Configuration {
 	private String welcome;
 
-	public String getValue() {
+	public String getWelcome() {
 		return welcome;
 	}
 
-	public void setValue(String value) {
-		this.welcome = value;
+	public void setWelcome(String welcome) {
+		this.welcome = welcome;
 	}
+
+	
 }

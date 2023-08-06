@@ -16,7 +16,7 @@ public class MicroServiceController {
 
     @GetMapping("/endpoint")
     public String retrieveLimits(){
-    	String v1 = configuration.getValue();
+    	String v1 = configuration.getWelcome();
     	String v2 = env.getProperty("welcome");
     	
         return v2;
