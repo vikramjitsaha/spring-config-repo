@@ -3,7 +3,7 @@ package com.vikram;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 
-@ConfigurationProperties("file1")
+@ConfigurationProperties("file")
 @org.springframework.context.annotation.Configuration
 public class Configuration {
 	private String welcome;
