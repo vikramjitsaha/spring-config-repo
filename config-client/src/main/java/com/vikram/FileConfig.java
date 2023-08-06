@@ -1,11 +1,12 @@
 package com.vikram;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 
 @ConfigurationProperties("file")
-@org.springframework.context.annotation.Configuration
-public class Configuration {
+@Configuration
+public class FileConfig {
 	private String welcome;
 
 	public String getWelcome() {
